@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>TechNova | 科技前沿 - 智能数字化解决方案</title>
+    <meta name="description" content="TechNova为您提供前沿科技解决方案，包括网站开发、云服务器配置、技术咨询等服务。立即获取定制化数字方案，让您的业务领先一步。">
+    <meta name="keywords" content="科技网站, 云服务器, 网站开发, 技术咨询, 数字化转型, AI解决方案, 服务器配置">
+    <meta name="author" content="TechNova">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="TechNova | 科技前沿">
+    <meta property="og:description" content="构建未来数字体验 - 前沿科技与创新设计的完美融合">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://technova.dev">
+    <meta property="og:image" content="https://img.icons8.com/color/96/000000/circuit-board.png">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="TechNova | 科技前沿">
+    <meta name="twitter:description" content="构建未来数字体验 - 前沿科技与创新设计的完美融合">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://img.icons8.com/color/96/000000/circuit-board.png">
+    <link rel="apple-touch-icon" href="https://img.icons8.com/color/96/000000/circuit-board.png">
+    
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/color/96/000000/circuit-board.png">
+</head>
+<body>
+    <!-- 粒子背景 -->
+    <div id="particles-js"></div>
+    
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-microchip"></i>
+                <span class="logo-text">Tech<span class="logo-highlight">Nova</span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">首页</a></li>
+                <li><a href="#features" class="nav-link">特性</a></li>
+                <li><a href="#tech" class="nav-link">技术栈</a></li>
+                <li><a href="#server" class="nav-link">服务器配置</a></li>
+                <li><a href="#contact" class="nav-link">联系</a></li>
+            </ul>
+            <div class="nav-actions">
+                <!-- 主题切换按钮 -->
+                <button class="theme-toggle" id="themeToggle" aria-label="切换主题">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <!-- 移动端菜单按钮 -->
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主内容 -->
+    <main>
+        <!-- 英雄区域 -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        <span>2025 最新技术方案</span>
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="title-line">构建<span class="gradient-text">未来</span>的</span>
+                        <span class="title-line">数字体验</span>
+                    </h1>
+                    <p class="hero-subtitle">前沿科技与创新设计的完美融合，为您的业务提供强大的数字解决方案</p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="99">0</span><span class="stat-suffix">%</span>
+                            <span class="stat-label">客户满意度</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="500">0</span><span class="stat-suffix">+</span>
+                            <span class="stat-label">项目交付</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="24">0</span><span class="stat-suffix">/7</span>
+                            <span class="stat-label">技术支持</span>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#server" class="btn btn-primary">查看服务器方案</a>
+                        <a href="#contact" class="btn btn-secondary">获取咨询</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="circuit-board">
+                        <div class="circuit-line"></div>
+                        <div class="circuit-line"></div>
+                        <div class="circuit-line"></div>
+                        <div class="chip">
+                            <div class="chip-inner">
+                                <div class="chip-core"></div>
+                            </div>
+                        </div>
+                        <div class="node node-1"></div>
+                        <div class="node node-2"></div>
+                        <div class="node node-3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 特性区域 -->
+        <section id="features" class="features">
+            <div class="container">
+                <h2 class="section-title">核心<span class="gradient-text">特性</span></h2>
+                <p class="section-subtitle">现代科技网站应具备的关键要素</p>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3 class="feature-title">极速性能</h3>
+                        <p class="feature-desc">采用最新前端优化技术，确保毫秒级加载速度，提升用户体验。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 class="feature-title">安全防护</h3>
+                        <p class="feature-desc">多重安全防护机制，包括DDoS防护、SSL加密、数据备份等。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 class="feature-title">响应式设计</h3>
+                        <p class="feature-desc">完美适配各种屏幕尺寸，从桌面到移动设备，提供一致体验。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="feature-title">数据分析</h3>
+                        <p class="feature-desc">集成高级分析工具，实时追踪用户行为，优化业务决策。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 技术栈区域 -->
+        <section id="tech" class="tech-stack">
+            <div class="container">
+                <h2 class="section-title">推荐<span class="gradient-text">技术栈</span></h2>
+                <p class="section-subtitle">构建现代科技网站的前沿技术选择</p>
+                
+                <div class="tech-container">
+                    <div class="tech-column">
+                        <h3 class="tech-column-title">前端技术</h3>
+                        <div class="tech-item">
+                            <div class="tech-icon">⚛️</div>
+                            <div class="tech-info">
+                                <h4>React / Vue.js</h4>
+                                <p>构建交互式用户界面的现代框架</p>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">🎨</div>
+                            <div class="tech-info">
+                                <h4>Tailwind CSS</h4>
+                                <p>实用优先的CSS框架，快速构建UI</p>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">📱</div>
+                            <div class="tech-info">
+                                <h4>PWA技术</h4>
+                                <p>渐进式Web应用，提供原生应用体验</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-column">
+                        <h3 class="tech-column-title">后端技术</h3>
+                        <div class="tech-item">
+                            <div class="tech-icon">🚀</div>
+                            <div class="tech-info">
+                                <h4>Node.js / Python</h4>
+                                <p>高性能服务器端运行时环境</p>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">🗄️</div>
+                            <div class="tech-info">
+                                <h4>PostgreSQL / MongoDB</h4>
+                                <p>关系型或文档型数据库选择</p>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">☁️</div>
+                            <div class="tech-info">
+                                <h4>云原生架构</h4>
+                                <p>容器化部署，弹性伸缩</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-column">
+                        <h3 class="tech-column-title">部署与运维</h3>
+                        <div class="tech-item">
+                            <div class="tech-icon">🐳</div>
+                            <div class="tech-info">
+                                <h4>Docker & Kubernetes</h4>
+                                <p>容器化部署和集群管理</p>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">⚡</div>
+                            <div class="tech-info">
+                                <h4>CDN加速</h4>
+                                <p>全球内容分发，提升访问速度</p>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">🔒</div>
+                            <div class="tech-info">
+                                <h4>HTTPS / SSL</h4>
+                                <p>全站加密，保障数据安全</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 服务器配置区域 -->
+        <section id="server" class="server-config">
+            <div class="container">
+                <h2 class="section-title">服务器<span class="gradient-text">配置推荐</span></h2>
+                <p class="section-subtitle">根据网站规模和需求选择合适方案</p>
+                
+                <div class="pricing-grid">
+                    <!-- 基础方案 -->
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 class="plan-name">基础版</h3>
+                            <div class="plan-price">
+                                <span class="price">¥99</span>
+                                <span class="period">/月</span>
+                            </div>
+                            <p class="plan-desc">适合初创公司/个人项目</p>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> 1核 CPU / 2GB 内存</li>
+                                <li><i class="fas fa-check"></i> 50GB SSD 存储</li>
+                                <li><i class="fas fa-check"></i> 1TB 月流量</li>
+                                <li><i class="fas fa-check"></i> 共享IP，基础DDoS防护</li>
+                                <li><i class="fas fa-check"></i> 每周自动备份</li>
+                                <li><i class="fas fa-check"></i> 技术支持响应: 24小时内</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#contact" class="btn btn-outline">选择此方案</a>
+                        </div>
+                    </div>
+                    
+                    <!-- 标准方案 -->
+                    <div class="pricing-card featured">
+                        <div class="badge">推荐</div>
+                        <div class="pricing-header">
+                            <h3 class="plan-name">标准版</h3>
+                            <div class="plan-price">
+                                <span class="price">¥299</span>
+                                <span class="period">/月</span>
+                            </div>
+                            <p class="plan-desc">适合中小企业/电商网站</p>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> 2核 CPU / 4GB 内存</li>
+                                <li><i class="fas fa-check"></i> 100GB SSD 存储</li>
+                                <li><i class="fas fa-check"></i> 5TB 月流量</li>
+                                <li><i class="fas fa-check"></i> 独立IP，高级DDoS防护</li>
+                                <li><i class="fas fa-check"></i> 每日自动备份</li>
+                                <li><i class="fas fa-check"></i> 技术支持响应: 4小时内</li>
+                                <li><i class="fas fa-check"></i> CDN加速（免费额度）</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#contact" class="btn btn-primary">选择此方案</a>
+                        </div>
+                    </div>
+                    
+                    <!-- 高级方案 -->
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 class="plan-name">高级版</h3>
+                            <div class="plan-price">
+                                <span class="price">¥699</span>
+                                <span class="period">/月</span>
+                            </div>
+                            <p class="plan-desc">适合大型企业/高流量平台</p>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> 4核 CPU / 8GB 内存</li>
+                                <li><i class="fas fa-check"></i> 200GB NVMe 存储</li>
+                                <li><i class="fas fa-check"></i> 不限流量</li>
+                                <li><i class="fas fa-check"></i> 独立IP，企业级DDoS防护</li>
+                                <li><i class="fas fa-check"></i> 实时备份与快照</li>
+                                <li><i class="fas fa-check"></i> 技术支持响应: 1小时内</li>
+                                <li><i class="fas fa-check"></i> 全球CDN加速 + WAF防护</li>
+                                <li><i class="fas fa-check"></i> 负载均衡配置</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#contact" class="btn btn-outline">选择此方案</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 部署平台推荐 -->
+                <div class="deployment-options">
+                    <h3 class="subsection-title">部署平台推荐</h3>
+                    <div class="deployment-grid">
+                        <div class="deployment-item">
+                            <div class="deployment-logo">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <h4>云服务器 (VPS)</h4>
+                            <p>阿里云、腾讯云、AWS、DigitalOcean</p>
+                            <p class="deployment-desc">完全控制权，适合定制化需求</p>
+                        </div>
+                        <div class="deployment-item">
+                            <div class="deployment-logo">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <h4>专用服务器</h4>
+                            <p>物理服务器托管</p>
+                            <p class="deployment-desc">高性能，资源独占，适合高流量场景</p>
+                        </div>
+                        <div class="deployment-item">
+                            <div class="deployment-logo">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <h4>Serverless/容器</h4>
+                            <p>Vercel、Netlify、Kubernetes</p>
+                            <p class="deployment-desc">弹性伸缩，按需付费，免运维</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系区域 -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">获取<span class="gradient-text">方案咨询</span></h2>
+                <p class="section-subtitle">我们的技术专家将为您提供定制化建议</p>
+                
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3 class="contact-title">联系我们</h3>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>电子邮件</h4>
+                                <p>contact@technova.dev</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>联系电话</h4>
+                                <p>400-123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>办公地址</h4>
+                                <p>北京市海淀区中关村科技园</p>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-weixin"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" placeholder="您的姓名" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="电子邮箱" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" placeholder="联系电话">
+                            </div>
+                            <div class="form-group">
+                                <select required>
+                                    <option value="" disabled selected>选择服务类型</option>
+                                    <option value="consulting">技术咨询</option>
+                                    <option value="server">服务器配置</option>
+                                    <option value="development">网站开发</option>
+                                    <option value="other">其他</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea placeholder="请描述您的需求..." rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">提交咨询</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-microchip"></i>
+                    <span>Tech<span class="logo-highlight">Nova</span></span>
+                </div>
+                <p class="footer-desc">前沿科技解决方案提供商，专注于数字创新与技术服务</p>
+                <div class="footer-links">
+                    <a href="#home">首页</a>
+                    <a href="#features">特性</a>
+                    <a href="#tech">技术栈</a>
+                    <a href="#server">服务器配置</a>
+                    <a href="#contact">联系</a>
+                </div>
+                <p class="copyright">© 2025 TechNova. 乾多多AI助手设计制作. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 脚本 -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
